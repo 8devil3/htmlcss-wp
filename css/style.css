@@ -115,7 +115,6 @@ main img {
 }
 
 .img-box {
-    background: rgba(0, 0, 0, 0.2);
     height: 200px;
     border-radius: 8px;
     overflow: hidden;
