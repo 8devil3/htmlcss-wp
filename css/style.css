@@ -122,7 +122,6 @@ main img {
 }
 
 .hero {
-    height: 350px;
     margin-bottom: 32px;
     border-radius: 16px;
     background-image: url("../img/banner.jpg");
