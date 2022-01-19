@@ -1,0 +1,115 @@
+/* CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* contenitore principale */
+.container {
+    max-width: 768px;
+    margin: 20px auto;
+}
+
+
+/* intestazione */
+.logo {
+    height: 60px;
+}
+
+
+
+/* navigazione */
+nav {
+    margin: 30px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+ul.menu-lv2 {
+    display: none;
+}
+
+
+
+/* contenuto */
+main img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.8);
+}
+
+.img-box {
+    background: rgba(0, 0, 0, 0.2);
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.hero {
+    height: 350px;
+    margin-bottom: 20px;
+    background: url("../img/banner.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    filter: brightness(0.8);
+}
+
+.content {
+    padding-bottom: 15px;
+}
+
+.content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top {
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.middle {
+    margin: 0 10px;
+    width: 50%;
+}
+
+.left,
+.right {
+    width: calc(((100% - 50%) / 2) - 10px);
+}
+
+.left,
+.middle,
+.right {
+    float: left;
+}
+
+
+
+/* piè di pagina */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.heart {
+    color: red;
+}
