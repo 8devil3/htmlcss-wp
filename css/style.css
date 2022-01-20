@@ -107,18 +107,12 @@ a:hover {
 
 
 /* contenuto */
-main img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    filter: brightness(0.8);
-}
-
-.img-box {
+.content img {
     height: 200px;
     border-radius: 8px;
-    overflow: hidden;
     margin-bottom: 0.7rem;
+    width: 100%;
+    filter: brightness(0.8);
 }
 
 .hero {
